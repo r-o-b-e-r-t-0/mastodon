@@ -113,7 +113,7 @@ elif st.session_state["selected_button"] == "Engagement":
         
     st.markdown("<h3 style='text-align: center;'>Is there a magic formula for engagement?</h3>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'>...let´s find out!</h3>", unsafe_allow_html=True)
-    st.image("https://onemanandhisblog.com/content/images/size/w1384/2023/10/wordpress-mastodon.jpg", use_container_width=True)
+    #st.image("https://onemanandhisblog.com/content/images/size/w1384/2023/10/wordpress-mastodon.jpg", use_container_width=True)
 
     #FIRST PLOTS FAVS VS BOOSTS
     # Total posts
