@@ -694,8 +694,8 @@ elif st.session_state["selected_button"] == "Engagement":
         """, unsafe_allow_html=True)
 
 elif st.session_state["selected_button"] == "Conclusions":
-    st.write("- Users with many followers post less often.")
-    st.write("- Frequent posters often have fewer followers.")
+    st.write("- The number of followers is not correlated to the number of posts.")
+    #st.write("- Frequent posters often have fewer followers.")
     st.write("- Mastodon grew after Elon Musk bought X.")
     st.write("- Trends often last only a day or two.")
     
