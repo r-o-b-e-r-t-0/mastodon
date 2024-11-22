@@ -102,7 +102,7 @@ if st.session_state.get("selected_button") == "Introduction":
     st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
     if st.button("HINT"):
         placeholder = st.empty()
-        placeholder.image(image_url, use_container_width=True)
+        placeholder.image(image_url)#, use_container_width=True)
         time.sleep(7)
         placeholder.empty()
     st.markdown("</div>", unsafe_allow_html=True)
