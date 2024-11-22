@@ -548,7 +548,7 @@ elif st.session_state["selected_button"] == "Next Steps":
     image_placeholder = st.empty()
     gif_placeholder = st.empty()
     # Show the image as a clickable "button"
-    image = image_placeholder.image(image_url,  use_container_width =True)
+    image = image_placeholder.image(image_url)#,  use_container_width =True)
     # Add a click event on the image
     if st.button('.'):
         # Hide the image and show the GIF
@@ -558,7 +558,7 @@ elif st.session_state["selected_button"] == "Next Steps":
         time.sleep(5)
         # Hide the GIF and show the image again
         gif_placeholder.empty()
-        image_placeholder.image(image_url,  use_container_width =True)
+        image_placeholder.image(image_url)#,  use_container_width =True)
 
 
 
