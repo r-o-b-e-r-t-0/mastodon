@@ -694,9 +694,9 @@ elif st.session_state["selected_button"] == "Engagement":
         """, unsafe_allow_html=True)
 
 elif st.session_state["selected_button"] == "Conclusions":
+    st.write("- Mastodon grew after Elon Musk bought Twitter.")
     st.write("- The number of followers is not correlated to the number of posts.")
     #st.write("- Frequent posters often have fewer followers.")
-    st.write("- Mastodon grew after Elon Musk bought X.")
     st.write("- Trends often last only a day or two.")
     
     fig = px.imshow(df.corr(), text_auto=True, aspect="auto", color_continuous_scale='Viridis')
